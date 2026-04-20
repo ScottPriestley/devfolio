@@ -1,0 +1,5 @@
+title: Your Portfolio Title
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-github-metadata
