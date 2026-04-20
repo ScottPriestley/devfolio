@@ -1,7 +1,3 @@
-author: Scott Priestley
-email: scott.priestley@gmail.com
-description: MyProjects
-
 # Essential for subfolder hosting
 baseurl: "/devfolio" 
 url: "https://scottpriestley.github.io"
