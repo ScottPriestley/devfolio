@@ -1,4 +1,12 @@
-title: Your Portfolio Title
+title: Scott Priestley
+author: Scott Priestley
+email: your-email@example.com # Optional
+description: Developer Portfolio and Project Repository
+
+# Essential for subfolder hosting
+baseurl: "/devfolio" 
+url: "https://scottpriestley.github.io"
+
 theme: minima
 plugins:
   - jekyll-feed
