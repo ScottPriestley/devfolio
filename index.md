@@ -1,19 +1,18 @@
 ---
 layout: home
+title: "Scott Priestley"
+author_profile: true
 ---
 
-# Scott Priestley
+## AI Champion and Productivity NERD 
 
-### AI Champion and Enterprise Application Services Nerd
+### Core Focus Areas
+- Productivity
+- AI Adoption & Enablement
+- Delivery Governance & Execution
 
-[View Projects]({{ site.baseurl }}/projects/)  
-[LinkedIn](https://linkedin.com/in/scottpriestley)
+### Featured Work
 
-## Technical Expertise
 
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Power Automate](https://img.shields.io/badge/Power%20Automate-25503b?style=for-the-badge&logo=power-automate&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-
-## Professional Insights
+[View Projects](/projects/)
+[Professional Insights](/insights/)
