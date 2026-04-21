@@ -1,13 +1,54 @@
-# Essential for subfolder hosting
-baseurl: "/devfolio" 
-url: "https://scottpriestley.github.io"
+# ============================================================
+# Site Settings
+# ============================================================
+title: Scott Priestley
+description: AI Champion & Productivity NERD — Portfolio & Blog
+author: Scott Priestley
+url: "" # your GitHub Pages URL, e.g. https://scottpriestley.github.io
+baseurl: "/devfolio" # your repo name (leave empty if using a custom domain)
 
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-include-cache
+# ============================================================
+# Social / Links
+# ============================================================
+github_username: ScottPriestley
+linkedin_username: # your-linkedin-slug
 
-  header_pages:
-  - _pages/about.md
-  - _pages/projects.md
-  - _pages/insights.md
-  - _pages/contact.md
+# ============================================================
+# Collections
+# ============================================================
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# ============================================================
+# Defaults — so you don't need layout: in every file
+# ============================================================
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# ============================================================
+# Build
+# ============================================================
+markdown: kramdown
+permalink: /blog/:title/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Header pages (for nav if you use them)
+header_pages: []
