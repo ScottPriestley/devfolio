@@ -2,7 +2,6 @@
 baseurl: "/devfolio" 
 url: "https://scottpriestley.github.io"
 
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
-  - jekyll-feed
-  - jekyll-github-metadata
+  - jekyll-include-cache
