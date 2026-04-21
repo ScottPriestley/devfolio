@@ -4,11 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
-## Public Repositories
-<ul>
-  {% for repo in site.github.public_repositories %}
-    <li>
-      <a href="{{ repo.html_url }}">{{ repo.name }}</a> - {{ repo.description }}
-    </li>
-  {% endfor %}
-</ul>
+Below is a curated list of my public repositories. These projects focus on technical automation, enterprise integrations, and specialized engineering disciplines.
+
+| Project Name | Description | Status |
+| :--- | :--- | :--- |
+{% for repo in site.github.public_repositories %}
+| **[{{ repo.name | capitalize }}]({{ repo.html_url }})** | {{ repo.description }} | ![Stars](https://img.shields.io/github/stars/{{ site.github.owner_name }}/{{ repo.name }}?style=flat-square) |
+{% endfor %}
+
+---
+*Note: This list is dynamically updated via the GitHub API.*
