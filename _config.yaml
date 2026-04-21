@@ -5,3 +5,9 @@ url: "https://scottpriestley.github.io"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
+
+  header_pages:
+  - _pages/about.md
+  - _pages/projects.md
+  - _pages/insights.md
+  - _pages/contact.md
