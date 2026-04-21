@@ -6,11 +6,11 @@ title: Scott Priestley — AI Champion & Productivity NERD
 <section class="hero container">
   <div class="hero-eyebrow">AI Champion &amp; Productivity Nerd</div>
   <h1>Scott <em>Priestley</em></h1>
-  <p class="hero-sub">Building at the intersection of AI adoption, productivity systems, and delivery excellence. Turning complex problems into elegant, shipped solutions.</p>
+  <p class="hero-sub">Championing the intersection of AI adoption, productivity systems, and delivery excellence.</p>
   <div class="hero-tags">
     <span class="tag">Productivity</span>
     <span class="tag">AI Adoption &amp; Enablement</span>
-    <span class="tag">Delivery Governance &amp; Execution</span>
+    <span class="tag">Delivery Execellence &amp; Execution</span>
   </div>
   <div class="scroll-cue">
     <span>Scroll</span>
